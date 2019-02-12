@@ -1,0 +1,74 @@
+{
+  "employees": [
+    {
+      "first": "Sable",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "HR",
+      "super": false,
+      "id": 1
+    },
+    {
+      "first": "Alex",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "HR",
+      "super": false,
+      "id": 2
+    },
+    {
+      "first": "Alex",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "HR",
+      "super": false,
+      "id": 3
+    },
+    {
+      "first": "Sable",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "HR",
+      "super": true,
+      "id": 4
+    },
+    {
+      "first": "Ian",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "HR",
+      "super": false,
+      "id": 5
+    },
+    {
+      "first": "",
+      "last": "Franklin",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "HR",
+      "super": false,
+      "id": 6
+    },
+    {
+      "first": "Sable",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "Receiving",
+      "super": false,
+      "id": 7
+    }
+  ]
+}
