@@ -90,6 +90,8 @@ const editEntry = (idParam) => {
     }).then(response => response.json())
     .then((parsedResponse) => {
         document.querySelector("#employeePrintout").innerHTML = buildEditForm(parsedResponse)
+        console.log(buildEditForm(parsedResponse))
+        console.log(parsedResponse.super)
     })
 }
 

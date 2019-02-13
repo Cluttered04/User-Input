@@ -12,8 +12,8 @@ const addEmployee = (firstNameParam, lastNameParam, emailParam, phoneParam, birt
 
 }
 
-const isSupervisor = () => {
-    if(document.querySelector("#supervisor").checked) {
+const isSupervisor = (supervisorID) => {
+    if(document.querySelector(`#${supervisorID}`).checked) {
         return true;
     } else {
         return false;
@@ -27,4 +27,12 @@ const maleOrFemale = () => {
         return "Male"
     }
 }
+
+
+    // if(employee.gender === "Female"){
+    //     return  document.querySelector("#femaleChoice").checked
+    // } else if (employee.gender === "Male") {
+    //     return document.querySelector("#maleChoice").checked
+    // }
+
 
