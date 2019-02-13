@@ -5,39 +5,49 @@
     <meta name="viewport content=width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <form action="">
-    <input type="text" placeholder="First Name" id="firstName">
-    <input type="text" placeholder="Last Name" id="lastName">
-    <input type="text" placeholder="Email" id="email">
-    <input type="text" placeholder="Phone Number" id="phoneNumber">
-    <input type="text" placeholder="Birthday" id="birthday">
-    <input type="checkbox" id="supervisor">Supervisor?<br>
-    <select name="" id="department">
-      <option value="HR">HR</option>
-      <option value="Receiving">Receiving</option>
-      <option value="Shipping">Shipping</option>
-      <option value="Accounting">Accounting</option>
-    </select>
-    <input type="radio" id="femaleChoice" value="female" name="gender">
-    <label for="female">Female</label>
-    <input type="radio" id="maleChoice" value = "male" name="gender">
-    <label for="male">Male</label>
-</form>
-<form action="">
-    <input type="text" placeholder="Search by first or last name" id="nameSearchBar">
-</form>
-<button id="searchByFirstName">Search By First Name</button>
-<button id="searchByLastName">Search By Last Name</button>
-
-<button id="addEmployee">Add Employee</button>
-<input type="text" placeholder="Search By Dept" id="deptSearch">
-<button id="deptSearchButton">Search by Department</button>
-<button id="searchForSuper">Search for supervisors</button>
-<div id="employeePrintout"></div>
-  <script src="scripts/api-manager.js"></script>
-  <script src="scripts/variables.js"></script>
+      <input type="text" placeholder="First Name" id="firstName" />
+      <input type="text" placeholder="Last Name" id="lastName" />
+      <input type="text" placeholder="Email" id="email" />
+      <input type="text" placeholder="Phone Number" id="phoneNumber" />
+      <input type="text" placeholder="Birthday" id="birthday" />
+      <input type="checkbox" id="supervisor" />Supervisor?<br />
+      <select name="" id="department">
+        <option value="HR">HR</option>
+        <option value="Receiving">Receiving</option>
+        <option value="Shipping">Shipping</option>
+        <option value="Accounting">Accounting</option>
+      </select>
+      <input type="radio" id="femaleChoice" value="female" name="gender" />
+      <label for="female">Female</label>
+      <input type="radio" id="maleChoice" value="male" name="gender" />
+      <label for="male">Male</label>
+    </form>
+    <form action="">
+      <input
+        type="text"
+        placeholder="Search by first or last name"
+        id="nameSearchBar"
+      />
+    </form>
+    <button id="searchByFirstName">Search By First Name</button>
+    <button id="searchByLastName">Search By Last Name</button>
+    <button id="addEmployee">Add Employee</button>
+    <input type="text" placeholder="Search By Dept" id="deptSearch" />
+    <button id="deptSearchButton">Search by Department</button>
+    <button id="searchForSuper">Search for supervisors</button>
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h1>Are you sure you want to delete this entry?</h1>
+      </div>
+    </div>
+    <div id="employeePrintout"></div>
+    <script src="scripts/api-manager.js"></script>
+    <script src="scripts/variables.js"></script>
     <script src="scripts/eventListeners.js"></script>
     <script src="scripts/objectBuilder.js"></script>
   </body>

@@ -37,8 +37,31 @@ document.querySelector("#employeePrintout").addEventListener("click", () => {
     if(event.target.classList.contains("delete")){
        const deleteID =  event.target.id.split("-")[1];
        deleteEntry(deleteID)
+    } else if(event.target.classList.contains("edit")){
+        const editID = event.target.id.split("-")[1];
+        editEntry(editID);
+    } else if (event.target.classList.contains("save")){
+        const saveID = event.target.id.split("-")[2];
+        const firstName = document.querySelector(`#task-first-edit-${saveID}`).value;
+        const lastName = document.querySelector(`#task-last-edit-${saveID}`).value;
+        const emailAddress = document.querySelector(`#task-email-edit-${saveID}`).value;
+        const phoneNumber = document.querySelector(`#task-phone-edit-${saveID}`).value;
+        const birthday = document.querySelector(`#task-birth-edit-${saveID}`).value;
+        const department = document.querySelector(`#task-dept-edit-${saveID}`).value;
+        const supervisor = document.querySelector(`#task-super-edit-${saveID}`).value;
+        const gender = document.querySelector(`#task-gender-edit-${saveID}`).value;
+        const employeeObject = addEmployee(firstName, lastName, emailAddress, phoneNumber, birthday, department, supervisor, gender);
+        console.log(employeeObject);
+        saveEditEntry(saveID, employeeObject);
     }
 })
+
+// document.querySelector("#employeePrintout").addEventListener("click", () => {
+//     var modal = document.querySelector(".modal")
+//     if(event.target.classList.contains("delete")){
+//         modal.classList.toggle("show-modal");
+//     }
+// })
 
 document.querySelector("#searchByFirstName").addEventListener("click", () => {
     const nameSearch = document.querySelector("#nameSearchBar").value;
@@ -54,7 +77,7 @@ document.querySelector("#searchByLastName").addEventListener("click", () => {
 
 document.querySelector("#deptSearchButton").addEventListener("click", () => {
     const deptSearch = document.querySelector("#deptSearch").value;
-
+    searchByDepartment(deptSearch);
 })
 
 

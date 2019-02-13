@@ -1,3 +1,7 @@
 const buildDOMString = (employee) => {
-    return `<div id="div-${employee.id}"><h1>${employee.first} ${employee.last}</h1><p>${employee.email}</p><p>${employee.phone}</p><p>${employee.birth}</p><p>${employee.dept}</p><p>${employee.super}</p><p>${employee.gender}</p><button class="delete" id="Delete-${employee.id}">Delete</button></div>`
+    return `<div id="div-${employee.id}"><h1>${employee.first} ${employee.last}</h1><p>${employee.email}</p><p>${employee.phone}</p><p>${employee.birth}</p><p>${employee.dept}</p><p>${employee.super}</p><p>${employee.gender}</p><button class="delete" id="Delete-${employee.id}">Delete</button><button class="edit" id="edit-${employee.id}">Edit</button></div>`
+}
+
+const buildEditForm = (singleEmployee) => {
+    return `<div class="edit-form"><input value="${singleEmployee.first}" id="task-first-edit-${singleEmployee.id}" type="text" class="validate"><input value="${singleEmployee.last}" id="task-last-edit-${singleEmployee.id}" type="text" class="validate"><input value="${singleEmployee.email}" id="task-email-edit-${singleEmployee.id}" type="text" class="validate"><input value="${singleEmployee.phone}" id="task-phone-edit-${singleEmployee.id}" type="text" class="validate"><input value="${singleEmployee.birth}" id="task-birth-edit-${singleEmployee.id}" type="text" class="validate"><input value="${singleEmployee.dept}" id="task-dept-edit-${singleEmployee.id}" type="text" class="validate"><input value="${singleEmployee.super}" id="task-super-edit-${singleEmployee.id}" type="text" class="validate"><input value="${singleEmployee.gender}" id="task-gender-edit-${singleEmployee.id}" type="text" class="validate"><button class="save" id="edit-save-${singleEmployee.id}">Save edit</button></div>`
 }
