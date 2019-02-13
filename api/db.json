@@ -2,65 +2,106 @@
   "employees": [
     {
       "first": "Adam",
-      "last": "",
-      "email": "",
-      "phone": "",
-      "birth": "",
-      "dept": "HR",
-      "super": true,
-      "id": 72
-    },
-    {
-      "first": "Adam",
-      "last": "",
-      "email": "",
-      "phone": "",
-      "birth": "",
-      "dept": "HR",
-      "super": true,
-      "gender": "Male",
-      "id": 73
-    },
-    {
-      "first": "Adam",
-      "last": "",
-      "email": "",
-      "phone": "",
-      "birth": "",
-      "dept": "HR",
-      "super": true,
-      "id": 74
-    },
-    {
-      "first": "Adam",
-      "last": "",
-      "email": "",
-      "phone": "",
-      "birth": "",
-      "dept": "HR",
-      "super": true,
-      "id": 75
-    },
-    {
-      "first": "Adam",
-      "last": "",
-      "email": "",
-      "phone": "",
-      "birth": "",
-      "dept": "HR",
-      "super": true,
-      "id": 76
-    },
-    {
-      "first": "Adam",
       "last": "Bowen",
       "email": "akwdunawudnw",
       "phone": "818617175",
       "birth": "1818771",
-      "dept": "HR",
+      "dept": "Receiving",
       "super": true,
       "gender": "Male",
       "id": 77
+    },
+    {
+      "first": "Sable",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "Receiving",
+      "super": true,
+      "gender": "Female",
+      "id": 79
+    },
+    {
+      "first": "Adam",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "Shipping",
+      "super": false,
+      "id": 80
+    },
+    {
+      "first": "Adam",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "HR",
+      "super": false,
+      "id": 81
+    },
+    {
+      "first": "Adam",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "HR",
+      "super": true,
+      "id": 82
+    },
+    {
+      "first": "Adam",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "HR",
+      "super": true,
+      "id": 83
+    },
+    {
+      "first": "Adam",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "HR",
+      "super": true,
+      "id": 84
+    },
+    {
+      "first": "Adam",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "HR",
+      "super": false,
+      "id": 85
+    },
+    {
+      "first": "Adam",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "Shipping",
+      "super": true,
+      "gender": "Male",
+      "id": 86
+    },
+    {
+      "first": "Adam",
+      "last": "",
+      "email": "",
+      "phone": "",
+      "birth": "",
+      "dept": "HR",
+      "super": false,
+      "id": 87
     }
   ]
 }

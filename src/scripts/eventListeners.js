@@ -49,7 +49,7 @@ document.querySelector("#employeePrintout").addEventListener("click", () => {
         const birthday = document.querySelector(`#task-birth-edit-${saveID}`).value;
         const department = document.querySelector(`#task-dept-edit-${saveID}`).value;
         const supervisor = isSupervisor(`task-super-edit-${saveID}`);
-        const gender = document.querySelector(`#task-gender-edit-${saveID}`).checked ? "Female" : "Male"
+        const gender = document.querySelector(`#task-gender-edit-${saveID}`).checked ? "Female" : "Male";
         const employeeObject = addEmployee(firstName, lastName, emailAddress, phoneNumber, birthday, department, supervisor, gender);
         console.log(employeeObject);
         saveEditEntry(saveID, employeeObject);
